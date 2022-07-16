@@ -1,0 +1,49 @@
+	0	1	2	3	4	5	6	7
+0	 Id	 Name	 Status	 Version	 Automation	 Test Phase	 Module	 Automation Status
+1	TC-1281	Verify the text fields in Applications.(See Steps)	New	1.3	Yes		MD-385 FVT	Not Started
+2	TC-1287	Verify text field across Backup Policies.(See steps)	New	1.3	Yes		MD-385 FVT	Not Started
+3	TC-1288	Verify text(description) across Backup Policies.(See steps)	New	1.3	Yes		MD-385 FVT	Not Started
+4	TC-1282	Verify Text(description) across Applications UI.(See Steps)	New	1.3	Yes		MD-385 FVT	Not Started
+5	TC-1286	Verify Icon buttons across Backup Policies.(See steps)	New	1.4	Yes		MD-385 FVT	Not Started
+6	TC-1289	Verify Font and Size across Backup Policies.(See steps)	New	1.5	Yes		MD-385 FVT	Not Started
+7	TC-1283	Verify Font and Size across Applications UI.(See Steps)	New	1.3	Yes		MD-385 FVT	Not Started
+8	TC-1285	Verify Buttons across Backup Policies.(See steps)	New	2.4	Yes		MD-385 FVT	Not Started
+9	TC-1279	Verify Buttons across Application.(See steps)	New	2.2	Yes		MD-385 FVT	Not Started
+10	TC-1280	Verify Button Icons in Applications.(See Steps)	New	1.4	Yes		MD-385 FVT	Not Started
+11	TC-1284	Verify all UI components on Safari, Chrome, Edge and Firefox Browser.(See Steps) Application	New	1.4	Yes		MD-385 FVT	Not Started
+12	TC-1290	Verify all UI components on Safari, Chrome, Edge and Firefox Browser.(Backup Policy)	New	1.7	Yes		MD-385 FVT	Not Started
+13	TC-58	Validate the REST API to initiate Log collector ->POST /api/v1/logcollector	Baselined	3.3	Yes	Functional Test	MD-8 FVT1	In Progress
+14	TC-59	Validate the REST API to get the list of active Job IDs-->GET  /api/v1/logcollectorCheck the status of the collection -->GET /api/v1/logcollector/*jobID*	Baselined	6.3	Yes	Functional Test	MD-8 FVT1	In Progress
+15	TC-60	Validate the REST API for Log collector Health Check -->GET /api/v1/logcollector/health	Baselined	3.3	Yes	Functional Test	MD-8 FVT1	In Progress
+16	TC-57	Validate deployment of Log collector  image to an OCP cluster as a stand-alone deployment	Baselined	1.11	Yes	Unit Test	MD-7 BVT	Complete
+17	TC-1028	UI-Validate the Completeness of logs for System	Baselined	5.3	Yes		MD-313 SVT	Not Started
+18	TC-1026	UI-Validate the Completeness of logs for Storage	Baselined	5.3	Yes		MD-313 SVT	Not Started
+19	TC-1025	UI-Validate the Completeness of logs for Network	Baselined	5.3	Yes		MD-313 SVT	Not Started
+20	TC-1023	UI-Validate the Completeness of logs for Compute 	Baselined	5.3	Yes		MD-313 SVT	Not Started
+21	TC-1029	UI-Validate the Completeness of logs for BackupRestore	Baselined	5.3	Yes		MD-313 SVT	Not Started
+22	TC-1027	UI-Validate the Completeness of logs for Administration	Baselined	5.3	Yes		MD-313 SVT	Not Started
+23	TC-652	UI-Validate logs deletion time 	Baselined	9.5	Yes		MD-265 FVT2	Not Started
+24	TC-649	UI-Positive validations for Log collector tabs 	Baselined	5.3	Yes		MD-265 FVT2	Not Started
+25	TC-650	UI-Positive Validations for downloading logs 	Baselined	4.3	Yes		MD-265 FVT2	Not Started
+26	TC-651	UI-Download collection set of logs 	Baselined	3.3	Yes		MD-265 FVT2	Not Started
+27	TC-594	New semantics_logrequests:Request such that Kind is namespaces with a specific namespace, but no name-negpath	Baselined	2.3	Yes		MD-157 FVT1	Complete
+28	TC-378	New semantics_logrequests:Request such that Kind is namespaces with a specific namespace, but no name-greenpath	Baselined	3.2	Yes		MD-157 FVT1	Not Started
+29	TC-593	New semantics_logrequests:Request such that  Kind  is defined but no  name value-negpath	Baselined	2.2	Yes		MD-157 FVT1	Not Started
+30	TC-377	New semantics_logrequests:Request such that  Kind  is defined but no  name value-greenpath	Baselined	4.2	Yes		MD-157 FVT1	Not Started
+31	TC-379	New semantics_logrequests:Do not mention anything in kind , name. Only mention namespace	Baselined	3.2	Yes		MD-157 FVT1	Not Started
+32	TC-1354	Negpath:Request logs by  providing wrong namespace	Baselined	0.5	Yes		MD-367 FVT	Not Started
+33	TC-1355	Negpath:Request logs by not providing namespace of resource	Baselined	0.3	Yes		MD-367 FVT	Not Started
+34	TC-1356	Negpath:Request logs by not providing kind of resource	Baselined	0.3	Yes		MD-367 FVT	Not Started
+35	TC-1357	Negpath:Request logs by not providing kind of resource	Baselined	0.3	Yes		MD-367 FVT	Not Started
+36	TC-1358	Negpath: get request by passing the wrong jobid and deleted jobid	Baselined	0.3	Yes		MD-367 FVT	Not Started
+37	TC-364	Loglist_CollectionSets:Request isf-logs list for the logs using the list-entry	In Progress	3.2	Yes		MD-157 FVT1	Not Started
+38	TC-365	Loglist_CollectionSets:Request isf-collection-set  list for the logs using standard log request	Baselined	3.2	Yes		MD-157 FVT1	Not Started
+39	TC-373	Loglist_CollectionSets:Request isf-collection-set  list for the logs using other collection set 	Baselined	2.2	Yes		MD-157 FVT1	Not Started
+40	TC-538	Loglist_CollectionSets:Request isf-collection-set  list for the logs using all  three types of sets	Baselined	3.2	Yes		MD-157 FVT1	Not Started
+41	TC-61	Get the results of the collection -->GET /api/v1/logcollector/*jobID*/results	Baselined	4.3	Yes	Functional Test	MD-8 FVT1	In Progress
+42	TC-296	Fix LogCollector Issue: Validate log deletion after expiration time	Baselined	4.2	Yes		MD-157 FVT1	Not Started
+43	TC-294	Fix LogCollector Issue: Validate data and time stamp of the archived logs	Baselined	3.2	Yes		MD-157 FVT1	Not Started
+44	TC-295	Fix LogCollector Issue: Retrieve logs of huge size	Baselined	2.2	Yes		MD-157 FVT1	Not Started
+45	TC-293	Fix LogCollector Issue: Error Handling during log retrieve	Baselined	2.2	Yes		MD-157 FVT1	Not Started
+46	TC-292	Fix LogCollector Issue: Archive to include Events associated with deployment and pods-Call to log collector	Baselined	4.3	Yes		MD-157 FVT1	In Progress
+47	TC-62	Delete the collection resources -->DELETE /api/v1/logcollector/*jobID*	Baselined	3.3	Yes	Functional Test	MD-8 FVT1	In Progress
